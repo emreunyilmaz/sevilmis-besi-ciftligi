@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+  }
+  html {
+    background-color: #F8F5F0 !important;
+  }
+  body {
+    background-color: #F8F5F0 !important;
+  }
+  body {
+    @apply font-sans;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+  }
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Poppins';
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+
+  font-family: 'Poppins';
+
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+/* Testimonials Swiper Styles */
+.testimonials-swiper .swiper-pagination {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: theme('colors.primary.DEFAULT');
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+    width: 24px;
+    border-radius: 4px;
+    background-color: theme('colors.primary.DEFAULT');
+    opacity: 1;
+}
+
+.testimonials-swiper .swiper-slide {
+    transition: all 0.3s ease;
+    opacity: 0.4;
+}
+
+.testimonials-swiper .swiper-slide-active {
+    opacity: 1;
+}
+
+.testimonials-swiper .swiper-slide-active .testimonial-card {
+    transform: scale(1.1);
+}
+
+/* AOS animasyonları için container düzeltmesi */
+[data-aos] {
+  pointer-events: none;
+}
+[data-aos].aos-animate {
+  pointer-events: auto;
+}
+
+/* Scroll kontrolü için genel stil */
+#root {
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
