@@ -4,9 +4,9 @@ import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: "AIzaSyDDs0BsYdml9TU6_43UjcNYUPBoGnCTbLQ",
-    authDomain: "sevilmis-besi.firebaseapp.com",
-    projectId: "sevilmis-besi",
-    storageBucket: "sevilmis-besi.firebasestorage.app",
+    authDomain: "hertat-besi.firebaseapp.com",
+    projectId: "hertat-besi",
+    storageBucket: "hertat-besi.firebasestorage.app",
     messagingSenderId: "100261217360",
     appId: "1:100261217360:web:33e560629ea3e4a3603d55"
 };

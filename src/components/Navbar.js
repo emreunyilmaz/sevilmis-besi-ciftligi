@@ -55,12 +55,12 @@ export default function Navbar() {
                         </svg>
                     </button>
                     <Link to="/" className="hidden lg:flex text-xl font-serif text-white">
-                        <img src="/assets/logo.png" alt="logo" className="w-20 h-20" />
+                        <img src="/assets/logo.png" alt="logo" className="w-20 h-22" />
                     </Link>
                 </div>
                 <div className="navbar-center lg:hidden">
                     <Link to="/" className="text-xl font-serif text-white">
-                        <img src="/assets/logo.png" alt="logo" className="w-16 h-16" />
+                        <img src="/assets/logo.png" alt="logo" className="w-16 h-18 object-contain " />
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex flex-1 justify-center">
@@ -155,7 +155,7 @@ export default function Navbar() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                             </button>
-                            <img src='/assets/logo.png' className='w-20 my-5'/>
+                            <img src='/assets/logo.png' className='w-20 object-contain my-5'/>
                             <div className="w-14"></div>
                         </div>
                         <div className="flex-1 overflow-y-auto py-8 px-4">

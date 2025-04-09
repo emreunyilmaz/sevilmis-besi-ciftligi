@@ -33,7 +33,7 @@ export default function Iletisim() {
         "service_nydfhcz", // EmailJS service ID'niz
         "template_qif8ctj", // EmailJS template ID'niz
         {
-          to_email: "sevilmisbesiciftligi25@gmail.com",
+          to_email: "hertatbesiciftligi@gmail.com",
           from_name: formData.user_name,
           from_email: formData.user_email,
           phone: formData.user_phone,
@@ -107,9 +107,9 @@ export default function Iletisim() {
                     <div className="text-start">
                       <h3 className="font-semibold text-xl mb-2">Adres</h3>
                       <p className="text-gray-600 text-lg">
-                      Ankara Mah. Ankara Cad. No:1
-                      <br />
-                        Çankaya /ANKARA
+                        Cumaköy Köyü Harkakası Mevkii 235/19
+                        <br />
+                        Kocaeli/Gebze
                       </p>
                     </div>
                   </div>
@@ -134,11 +134,9 @@ export default function Iletisim() {
                     <div className="text-start">
                       <h3 className="font-semibold text-xl mb-2">Telefon</h3>
                       <p className="text-gray-600 text-lg">
-                        +90 (312) 123 45 67
+                        +90 (539) 286 92 63
                       </p>
-                      <p className="text-gray-600 text-lg">
-                        +90 (532) 123 45 67
-                      </p>
+                  
                     </div>
                   </div>
 
@@ -189,8 +187,7 @@ export default function Iletisim() {
                         Çalışma Saatleri
                       </h3>
                       <div className="text-gray-600 text-lg">
-                        <p>Pazartesi - Cuma: 08:00 - 18:00</p>
-                        <p>Cumartesi: 09:00 - 14:00</p>
+                        <p>09:00 - 17:00</p>
                       </div>
                     </div>
                   </div>
@@ -327,8 +324,9 @@ export default function Iletisim() {
           <h2 className="text-3xl font-bold mb-8 text-center">Konum</h2>
           <div className="w-full h-[400px] bg-gray-200 rounded-lg">
             {/* Google Maps iframe'i buraya eklenecek */}
+          
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12238.558696491959!2d32.85652678326537!3d39.92006900263553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f190a9cea8f%3A0xc3943d4d4626f358!2sK%C4%B1z%C4%B1lay%2C%20Ankara!5e0!3m2!1str!2str!4v1647095861540!5m2!1str!2str"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3584.879659111162!2d29.514099114251398!3d40.92643472864088!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1744127835794!5m2!1str!2str"
               width="100%"
               height="100%"
               style={{ border: 0 }}

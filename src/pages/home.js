@@ -23,35 +23,35 @@ export default function Home() {
       name: "Ahmet Yılmaz",
       image: "/assets/humans/5-min.png", // Varsayılan bir avatar kullanabilirsiniz
       content:
-        "Sevilmiş Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
+        "Hertat Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
     },
     {
       id: 1,
       name: "Mehmet Kaya",
       image: "/assets/humans/6-min.png", // Varsayılan bir avatar kullanabilirsiniz
       content:
-        "Sevilmiş Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
+        "Hertat Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
     },
     {
       id: 1,
       name: "Hasan Yıldız",
       image: "/assets/humans/7-min.png", // Varsayılan bir avatar kullanabilirsiniz
       content:
-        "Sevilmiş Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
+        "Hertat Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
     },
     {
       id: 1,
       name: "Fatma Dikmen",
       image: "/assets/humans/9-min.png", // Varsayılan bir avatar kullanabilirsiniz
       content:
-        "Sevilmiş Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
+        "Hertat Besi Çiftliği ile çalışmaya başladığımızdan beri hayvanlarımızın sağlığı ve verimi gözle görülür şekilde arttı. Profesyonel ekipleri ve modern yaklaşımları ile sektörde fark yaratıyorlar.",
     },
     {
       id: 2,
       name: "Mehmet Demir",
       image: "/assets/humans/8-min.png",
       content:
-        "Uzun yıllardır hayvancılık sektöründeyim ve Sevilmiş Besi Çiftliği'nin uyguladığı bakım ve besleme teknikleri gerçekten takdire şayan. Hayvan sağlığına verdikleri önem ve kullandıkları modern yöntemler örnek alınmalı.",
+        "Uzun yıllardır hayvancılık sektöründeyim ve Hertat Besi Çiftliği'nin uyguladığı bakım ve besleme teknikleri gerçekten takdire şayan. Hayvan sağlığına verdikleri önem ve kullandıkları modern yöntemler örnek alınmalı.",
     },
     {
       id: 3,
@@ -113,11 +113,11 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div data-aos="fade-up" data-aos-delay="100">
-              <div className="text-4xl font-bold mb-2">10+</div>
+              <div className="text-4xl font-bold mb-2">5+</div>
               <div className="text-sm opacity-80">Yıllık Tecrübe</div>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
-              <div className="text-4xl font-bold mb-2">500+</div>
+              <div className="text-4xl font-bold mb-2">250+</div>
               <div className="text-sm opacity-80">Büyükbaş Hayvan</div>
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
@@ -431,7 +431,7 @@ export default function Home() {
             data-aos="fade-up"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12238.558696491959!2d32.85652678326537!3d39.92006900263553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f190a9cea8f%3A0xc3943d4d4626f358!2sK%C4%B1z%C4%B1lay%2C%20Ankara!5e0!3m2!1str!2str!4v1647095861540!5m2!1str!2str"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3584.879659111162!2d29.514099114251398!3d40.92643472864088!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1744127835794!5m2!1str!2str"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -442,10 +442,9 @@ export default function Home() {
           </div>
           {/* <div className="mt-8 text-center" data-aos="fade-up">
                         <h3 className="text-2xl font-semibold mb-4">Adres</h3>
-                        <p className="text-gray-600 text-lg">
-                            Ankara Mah. Ankara Cad. No:1 <br />
-                            Merkez/ANKARA
-                        </p>
+                           Cumaköy Köyü Harkakası Mevkii 235/19
+              <br />
+              Kocaeli/Gebze
                     </div> */}
         </div>
       </section>
